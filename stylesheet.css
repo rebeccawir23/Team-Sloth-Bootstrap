@@ -1,0 +1,111 @@
+/*stylesheet.css */
+@charset "utf-8";
+h1 {
+	font-size: 52px;
+	font-family: 'Lobster', cursive;
+}
+h2 {
+	font-size: 32px;
+	font-family: 'Lobster', cursive;
+}
+h3 {
+	font-family: 'Lobster', cursive;
+	
+}
+h4 {
+	font-family: Gotham;
+	font-weight: bold;
+}
+p {
+	font-family: Gotham;	
+	}
+.thick-green-border {
+	border-color: darkgreen;
+	border-width: 10px;
+	border-style: solid;
+	border-radius: 20px;
+}
+body {
+	background: radial-gradient(#ffffcc, #336633);
+}
+.menuGrid {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	width: 90%;
+	border-top:thick #c0c0c0;
+	border-bottom: thick #c0c0c0;
+}
+#menuLeft {
+	text-align: center;
+}
+#menuRight {
+	text-align: center;
+}
+.container {
+	width: 90%;
+	display: grid;
+	align-items: center;
+}
+.bioGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto;
+	grid-gap: 20px;
+}
+.bioBox {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.23);
+	border-radius: 20px;
+	padding: 20px;
+}
+#bTitle {
+	text-align: center;
+	background: #DFFFC9;
+	line-height: 55px;
+	border-bottom: #333300 double;
+	border-top: #333300 double;
+	border-radius: 20px;
+	color: black;
+}
+#wTitle {
+	text-align: center;
+	background: #DFFFC9;
+	line-height: 55px;
+	border-bottom: #333300 double;
+	border-top: #333300 double;
+	color: black;
+}
+#jTitle {
+	text-align: center;
+	background: #DFFFC9;
+	line-height: 55px;
+	border-bottom: #333300 double;
+	border-top: #333300 double;
+	color: black;
+}
+#rTitle {
+	text-align: center;
+	background: #DFFFC9;
+	line-height: 55px;
+	border-bottom: #333300 double;
+	border-top: #333300 double;
+	color: black;
+}
+.bioColumns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.bioPic {
+	display:block;
+	width: 7em;
+	height:auto;
+	border:thin #000000;
+	border-radius: 100%;
+}
+.resourceBox {
+	text-align: center;
+	padding: 20px;
+}
+.imageResize {
+	max-width:100%;
+	height: auto;
+}
