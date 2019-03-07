@@ -105,6 +105,14 @@ body {
 	text-align: center;
 	padding: 20px;
 }
+.resourceBox2 {
+	text-align: left;
+	padding: 20px;
+}
+.resourceBox3 {
+	text-align: right;
+	padding: 20px;
+}
 .imageResize {
 	max-width:100%;
 	height: auto;
